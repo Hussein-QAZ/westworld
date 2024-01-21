@@ -1,0 +1,264 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 10px;
+}
+section {
+  padding: 10px;
+}
+/* start page */
+.h-start {
+  background-color: #fefefe;
+  text-align: center;
+  padding: 10px;
+}
+.h-start h1 {
+  background-color: black;
+  font-size: 5em;
+  color: aliceblue;
+  width: fit-content;
+  margin: auto;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.h-start p:first-child {
+  background-color: black;
+  font-size: xx-large;
+  color: aliceblue;
+  width: fit-content;
+  margin: auto;
+  padding: 6px;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.h-start p:nth-last-of-type(2) {
+  background-color: black;
+  font-size: xx-large;
+  color: aliceblue;
+  width: fit-content;
+  margin: 10px auto;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+span:hover {
+  color: red;
+  font-weight: bolder;
+}
+img + p {
+  background-color: black;
+  color: aliceblue;
+  font-size: xx-large;
+  width: fit-content;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.h-start img {
+  width: 60%;
+  height: 50%;
+}
+
+.m-start {
+  padding: 10px;
+  text-align: center;
+  background-color: black;
+}
+
+.m-start h2,
+h3 {
+  background-color: #fefefe;
+  width: fit-content;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: x-large;
+}
+
+article p {
+  background-color: black;
+  color: #fefefe;
+  font-size: larger;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  background-color: #3a3a3c;
+}
+nav ul li {
+  display: inline;
+  width: fit-content;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 6px;
+}
+li a {
+  background-color: #fefefe;
+  text-decoration: none;
+  color: black;
+  font-size: xx-large;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+li a:hover {
+  background-color: black;
+  color: #fefefe;
+}
+.f-start {
+  background-color: #fefefe;
+  text-align: center;
+  font-size: larger;
+  height: 8vh;
+  padding: 10px;
+}
+.f-start p {
+  width: fit-content;
+  margin: 15px auto;
+  padding: 10px;
+}
+p a:hover {
+  color: aqua;
+}
+p a {
+  color: blue;
+}
+
+/* Season 1 */
+.w-s1 {
+  background-color: #133e51;
+}
+
+.m-s1 h2 {
+  text-align: center;
+  background-color: #608caf;
+  color: #ccdfe6;
+  padding: 20px;
+}
+.header-s1 {
+  padding: 10px;
+  text-align: center;
+}
+.header-s1 h1 {
+  font-size: xx-large;
+  background-color: #608caf;
+  color: #ccdfe6;
+  padding: 10px;
+}
+.header-s1 img {
+  width: 60%;
+  height: 60%;
+}
+.m-s1 {
+  padding: 10px;
+}
+
+.more-info1 ul {
+  background-color: #ccdfe6;
+}
+.more-info1 ul li {
+  font-size: x-large;
+  padding: 5px;
+}
+.more-images1 {
+  padding: 10px;
+  width: 100%;
+}
+.more-images1 img {
+  width: 899px;
+  height: 80%;
+  padding: 10px;
+}
+.iframe {
+  border: 4px solid black;
+  width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.f-s1 nav ul {
+  background-color: #608caf;
+}
+/* Season 2 */
+.w-s2 {
+  background-color: #495062;
+}
+.h-s2 h1 {
+  background-color: #8d1d29;
+  color: #cfced3;
+}
+.h-s2 img {
+  width: 60%;
+}
+.m-s2 h2 {
+  background-color: #8d1d29;
+  color: #cfced3;
+}
+.more-info2 ul {
+  background-color: #cfced3;
+}
+.more-img2 img {
+  width: 440px;
+}
+
+.f-s2 nav ul {
+  background-color: #8d1d29;
+}
+
+/* Season 3 */
+
+.w-s3 {
+  background-color: #f7d3b2;
+}
+.h-s3 h1 {
+  background-color: #df8d6c;
+  color: black;
+}
+.h-s3 img {
+  width: 70%;
+}
+.m-s3 h2 {
+  background-color: #df8d6c;
+  color: black;
+}
+.more-info3 ul {
+  background-color: #f7d3b2;
+}
+.more-img3 img {
+  width: 590px;
+}
+
+.f-s3 nav ul {
+  background-color: #df8d6c;
+}
+
+/* Season 4 */
+
+.w-s4 {
+  background-color: #f2f2f0;
+}
+.h-s4 h1 {
+  background-color: #979691;
+  color: black;
+}
+.h-s4 img {
+  width: 30%;
+}
+.m-s4 h2 {
+  background-color: #979691;
+  color: black;
+}
+.more-info4 ul {
+  background-color: #9e4c4a;
+}
+.more-img4 img {
+  width: 900px;
+}
+
+.f-s4 nav ul {
+  background-color: #979691;
+}
